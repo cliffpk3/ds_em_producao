@@ -20,7 +20,7 @@ A estratégia de solução levou em consideração a metodologia CRISP-DS (Crisp
 
 <h2>4. Top 3 Insights de Negócios</h2>
 <h4>4.1 Lojas com concorrentes mais próximos vendem menos;</h4>
-![image](https://user-images.githubusercontent.com/86201991/177865941-b64f93d1-b1b5-40ff-84a5-475d768e2f6e.png)
+<img align="center" alt="4_1" src="https://user-images.githubusercontent.com/86201991/177865941-b64f93d1-b1b5-40ff-84a5-475d768e2f6e.png" />
 Essa é uma hipótese falsa, os dados evidenciam que lojas com concorrentes mais próximos tendem a vender mais. O comportamento provavelmente acontece porque centros comerciais tendem a ficar mais cheios e consequentemente ter mais movimentação que pontos isolados de comércio.
 A validação dessa hipótese nos mostra que é válido priorizar a expansão de lojas em centros comerciais. Aumentar a gama de produtos oferecidos e o estoque de produtos de saída frequente também podem ser saídas dessa validação de hipótese.
 
