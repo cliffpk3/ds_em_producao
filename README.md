@@ -25,12 +25,12 @@ Essa é uma hipótese falsa, os dados evidenciam que lojas com concorrentes mais
 A validação dessa hipótese nos mostra que é válido priorizar a expansão de lojas em centros comerciais. Aumentar a gama de produtos oferecidos e o estoque de produtos de saída frequente também podem ser saídas dessa validação de hipótese.
 
 <h4>4.2 Lojas devem vender mais depois do dia 10 de cada mês;</h4>
-![image](https://user-images.githubusercontent.com/86201991/177865973-bd6d75ce-6d39-474e-b3ba-9bbf632cdc80.png)
+<img align="center" alt="4_1" src="https://user-images.githubusercontent.com/86201991/177865973-bd6d75ce-6d39-474e-b3ba-9bbf632cdc80.png" />
 Essa é uma hipótese falsa, os dados evidenciam que as lojas tendem a vender mais antes do dia 10 de cada mês.
 A validação dessa hipótese nos permite um melhor planejamento de ciclos de promoções de produtos para as lojas.
 
 <h4>4.3 Lojas abertas durante o feriado de natal vendem mais;</h4>
-![image](https://user-images.githubusercontent.com/86201991/177865979-f7da41aa-573c-4823-b975-82d529251080.png)
+<img align="center" alt="4_1" src="https://user-images.githubusercontent.com/86201991/177865979-f7da41aa-573c-4823-b975-82d529251080.png" />
 Essa também é uma hipótese falsa, os dados evidenciam que as lojas tendem a vender mais no feriado de páscoa do que no feriado de natal.
 A validação dessa hipótese nos permite um melhor planejamento de promoções, controle de estoque, dentre outras ações.
 
@@ -39,6 +39,7 @@ A validação dessa hipótese nos permite um melhor planejamento de promoções,
 Após preparação dos dados, foi utilizado o algorítmo XGBoost aplicado em Cross-Validation para obtenção de resultados mais fiéis de predição. Os valores encontrados foram satisfatórios e possibilitam tomadas de decisões de mercado e de reforma mais assertivas.
 
 <h4>5.1 Melhores desempenhos de predição</h4>
+
 | ranking | store  |  predictions  | MAE | MAPE |
 | ---- | ---- | ---- | ---- | ---- |
 | 1 | 733 | 637571,81 | 703,24 | 0,047406 |
