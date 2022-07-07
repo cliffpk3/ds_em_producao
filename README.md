@@ -38,16 +38,16 @@ A validação dessa hipótese nos permite um melhor planejamento de promoções,
 
 Após preparação dos dados, foi utilizado o algorítmo XGBoost aplicado em Cross-Validation para obtenção de resultados mais fiéis de predição. Os valores encontrados foram satisfatórios e possibilitam tomadas de decisões de mercado e de reforma mais assertivas.
 
-<h2>5.1 Melhores desempenhos de predição</h2>
+<h4>5.1 Melhores desempenhos de predição</h4>
 | ranking | store  |  predictions  | MAE | MAPE |
-| --- | --- | --- | --- | --- |
-| 1 | 733 | 637571,81  | 703,24 | 0,047406 |
-| 2 | 494 | 321822,28  | 368,68 | 0,050324 |
+| ---- | ---- | ---- | ---- | ---- |
+| 1 | 733 | 637571,81 | 703,24 | 0,047406 |
+| 2 | 494 | 321822,28 | 368,68 | 0,050324 |
 | 3 | 259 | 546546,68 | 666,37 | 0,052024 |
 | 4 | 562 | 739290,37 | 923,59 | 0,052863 |
 | 5 | 1097 | 453025,90 | 587,81 | 0,057227 |
 
-<h2>5.2 Piores desempenhos de predição</h2>
+<h4>5.2 Piores desempenhos de predição</h4>
 
 | ranking | store | predictions | MAE | MAPE |
 | --- | --- | --- | --- | --- |
