@@ -1,5 +1,5 @@
 <h2>1. Problema de Negócio</h2>
-<h3>1.1 Contextualização
+<h3>1.1 Contextualização</h3>
 A Rossmann é uma rede de drogarias de origem alemã, presente na Europa. Possui ao todo mais de 4000 lojas e o faturamento anual da rede é estimado em €10 bilhões. A gama de produtos oferecidos incluem mais de 21 mil itens que podem variar de acordo com o tamanho da loja, os principais produtos são itens destinados saúde em geral, saúde da pele, cabelos, cuidado com o corpo e infantis.
 
 <h3>1.2 Objetivos</h3>
@@ -11,34 +11,34 @@ b) Para lojas sem concorrente próximo, será considerado uma distância máxima
 
 <h2>3. Estratégia de Solução</h2>
 A estratégia de solução levou em consideração a metodologia CRISP-DS (Crisp-DM adaptado para Data Science), que busca o entendimento do negócio e entrega de resultados de forma cíclica.
-3.1 Carregar dados do Kaggle (https://www.kaggle.com/c/rossmann-store-sales);</h3>
-3.2 Descrição dos dados, criação e filtragem de variáveis;
-3.3 Análise Exploratória de Dados (EDA);
-3.4 Validação de Hipóteses;
-3.5 Preparação dos dados para modelação;
-3.6 Criação do modelo para produção e automação do BOT no Telegram.
+<h3>3.1 Carregar dados do Kaggle (https://www.kaggle.com/c/rossmann-store-sales);</h3>
+<h3>3.2 Descrição dos dados, criação e filtragem de variáveis;</h3>
+<h3>3.3 Análise Exploratória de Dados (EDA);</h3>
+<h3>3.4 Validação de Hipóteses;</h3>
+<h3>3.5 Preparação dos dados para modelação;</h3>
+<h3>3.6 Criação do modelo para produção e automação do BOT no Telegram.</h3>
 
 <h2>4. Top 3 Insights de Negócios</h2>
-4.1 Lojas com concorrentes mais próximos vendem menos;
+<h3>4.1 Lojas com concorrentes mais próximos vendem menos;</h3>
 ![image](https://user-images.githubusercontent.com/86201991/177865941-b64f93d1-b1b5-40ff-84a5-475d768e2f6e.png)
 Essa é uma hipótese falsa, os dados evidenciam que lojas com concorrentes mais próximos tendem a vender mais. O comportamento provavelmente acontece porque centros comerciais tendem a ficar mais cheios e consequentemente ter mais movimentação que pontos isolados de comércio.
 A validação dessa hipótese nos mostra que é válido priorizar a expansão de lojas em centros comerciais. Aumentar a gama de produtos oferecidos e o estoque de produtos de saída frequente também podem ser saídas dessa validação de hipótese.
 
-4.2 Lojas devem vender mais depois do dia 10 de cada mês;
+<h3>4.2 Lojas devem vender mais depois do dia 10 de cada mês;</h3>
 ![image](https://user-images.githubusercontent.com/86201991/177865973-bd6d75ce-6d39-474e-b3ba-9bbf632cdc80.png)
 Essa é uma hipótese falsa, os dados evidenciam que as lojas tendem a vender mais antes do dia 10 de cada mês.
 A validação dessa hipótese nos permite um melhor planejamento de ciclos de promoções de produtos para as lojas.
 
-4.3 Lojas abertas durante o feriado de natal vendem mais;
+<h3>4.3 Lojas abertas durante o feriado de natal vendem mais;</h3>
 ![image](https://user-images.githubusercontent.com/86201991/177865979-f7da41aa-573c-4823-b975-82d529251080.png)
 Essa também é uma hipótese falsa, os dados evidenciam que as lojas tendem a vender mais no feriado de páscoa do que no feriado de natal.
 A validação dessa hipótese nos permite um melhor planejamento de promoções, controle de estoque, dentre outras ações.
 
-5. Resultados
+<h2>5. Resultados</h3>
 
 Após preparação dos dados, foi utilizado o algorítmo XGBoost aplicado em Cross-Validation para obtenção de resultados mais fiéis de predição. Os valores encontrados foram satisfatórios e possibilitam tomadas de decisões de mercado e de reforma mais assertivas.
 
-5.1 Melhores desempenhos de predição
+<h2>5.1 Melhores desempenhos de predição</h2>
 | ranking | store  |  predictions  | MAE | MAPE |
 | --- | --- | --- | --- | --- |
 | 1 | 733 | 637571,81  | 703,24 | 0,047406 |
@@ -47,7 +47,7 @@ Após preparação dos dados, foi utilizado o algorítmo XGBoost aplicado em Cro
 | 4 | 562 | 739290,37 | 923,59 | 0,052863 |
 | 5 | 1097 | 453025,90 | 587,81 | 0,057227 |
 
-5.2 Piores desempenhos de predição
+<h2>5.2 Piores desempenhos de predição</h2>
 
 | ranking | store | predictions | MAE | MAPE |
 | --- | --- | --- | --- | --- |
