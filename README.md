@@ -19,18 +19,18 @@ A estratégia de solução levou em consideração a metodologia CRISP-DS (Crisp
 3.6 Criação do modelo para produção e automação do BOT no Telegram.
 
 <h2>4. Top 3 Insights de Negócios</h2>
-4.1 Lojas com competidores mais próximos vendem menos;
-![image](https://user-images.githubusercontent.com/86201991/155598476-f1c8b94d-d634-49c6-95a2-b24331f38845.png)
-Essa é uma hipótese falsa, os dados evidenciam que lojas com competidores mais próximos tendem a vender mais. O comportamento provavelmente acontece porque centros comerciais tendem a ficar mais cheios e consequentemente ter mais movimentação que pontos isolados de comércio.
+4.1 Lojas com concorrentes mais próximos vendem menos;
+![image](https://user-images.githubusercontent.com/86201991/177865941-b64f93d1-b1b5-40ff-84a5-475d768e2f6e.png)
+Essa é uma hipótese falsa, os dados evidenciam que lojas com concorrentes mais próximos tendem a vender mais. O comportamento provavelmente acontece porque centros comerciais tendem a ficar mais cheios e consequentemente ter mais movimentação que pontos isolados de comércio.
 A validação dessa hipótese nos mostra que é válido priorizar a expansão de lojas em centros comerciais. Aumentar a gama de produtos oferecidos e o estoque de produtos de saída frequente também podem ser saídas dessa validação de hipótese.
 
 4.2 Lojas devem vender mais depois do dia 10 de cada mês;
-![image](https://user-images.githubusercontent.com/86201991/155598476-f1c8b94d-d634-49c6-95a2-b24331f38845.png)
+![image](https://user-images.githubusercontent.com/86201991/177865973-bd6d75ce-6d39-474e-b3ba-9bbf632cdc80.png)
 Essa é uma hipótese falsa, os dados evidenciam que as lojas tendem a vender mais antes do dia 10 de cada mês.
 A validação dessa hipótese nos permite um melhor planejamento de ciclos de promoções de produtos para as lojas.
 
 4.3 Lojas abertas durante o feriado de natal vendem mais;
-![image](https://user-images.githubusercontent.com/86201991/155598476-f1c8b94d-d634-49c6-95a2-b24331f38845.png)
+![image](https://user-images.githubusercontent.com/86201991/177865979-f7da41aa-573c-4823-b975-82d529251080.png)
 Essa também é uma hipótese falsa, os dados evidenciam que as lojas tendem a vender mais no feriado de páscoa do que no feriado de natal.
 A validação dessa hipótese nos permite um melhor planejamento de promoções, controle de estoque, dentre outras ações.
 
@@ -39,10 +39,20 @@ A validação dessa hipótese nos permite um melhor planejamento de promoções,
 Após preparação dos dados, foi utilizado o algorítmo XGBoost aplicado em Cross-Validation para obtenção de resultados mais fiéis de predição. Os valores encontrados foram satisfatórios e possibilitam tomadas de decisões de mercado e de reforma mais assertivas.
 
 5.1 Melhores desempenhos de predição
-| position | store  |  predictions  | MAE | MAPE |
+| ranking | store  |  predictions  | MAE | MAPE |
 | --- | --- | --- | --- | --- |
 | 1 | 733 | 637571,81  | 703,24 | 0,047406 |
 | 2 | 494 | 321822,28  | 368,68 | 0,050324 |
 | 3 | 259 | 546546,68 | 666,37 | 0,052024 |
 | 4 | 562 | 739290,37 | 923,59 | 0,052863 |
 | 5 | 1097 | 453025,90 | 587,81 | 0,057227 |
+
+5.2 Piores desempenhos de predição
+
+| ranking | store | predictions | MAE | MAPE |
+| --- | --- | --- | --- | --- |
+| 1115 | 909 | 248363,57 | 7460,87 | 0,800148 |
+| 1114 | 876 | 203856,59 | 4085,20 | 0,591192 |
+| 1113 | 292 | 105301,39 | 3369,14 | 0,493255 |
+| 1112 | 183 | 211484,68 | 1731,66 | 0,270650 |
+| 1111 | 274 | 205869,96 | 1160,93 | 0,265488 |
