@@ -1,4 +1,4 @@
-![137392417-f320ce54-6198-475a-9e15-ec0f3d4b162d](https://user-images.githubusercontent.com/86201991/178254895-12003ad6-b49b-4e5d-9b0f-6fb21948a7ac.jpg)
+<img align="center" alt="4_1" src="https://user-images.githubusercontent.com/86201991/178257200-f94a1af2-c0c5-4705-ac3d-3bdc2ac68052.jpeg](https://user-images.githubusercontent.com/86201991/178254895-12003ad6-b49b-4e5d-9b0f-6fb21948a7ac.jpg)" />
 <h2>1. Problema de Negócio</h2>
 <h4>1.1 Contextualização</h4>
 <p>A Rossmann é uma rede de drogarias de origem alemã, presente na Europa. Possui ao todo mais de 4000 lojas e o faturamento anual da rede é estimado em €10 bilhões. A gama de produtos oferecidos incluem mais de 21 mil itens que podem variar de acordo com o tamanho da loja, os principais produtos são itens destinados saúde em geral, saúde da pele, cabelos, cuidado com o corpo e infantis.</p>
@@ -60,11 +60,11 @@ A validação dessa hipótese nos permite um melhor planejamento de ciclos de pr
 | 1111 | 274 | 205869,96 | 1160,93 | 0,265488 |
 
 <h4>5.3 Dinâmica do recebimento de dados no Telegram</h4>
-![rossmann](https://user-images.githubusercontent.com/86201991/178255265-7c1df4d6-e0a1-41dd-921d-b0d79319072a.png)
+<img align="center" alt="4_1" src="https://user-images.githubusercontent.com/86201991/178255265-7c1df4d6-e0a1-41dd-921d-b0d79319072a.png" />
 
 <h4>6. Lições aprendidas e agradecimentos</h4>
 <p>A partir desse projeto foi possível aprender que o planejamento é uma etapa essencial para o desenvolvimento do projeto, mesmo que, na maioria das vezes, não será possível cumprir o plano traçado devido as inconsistências no processo que irão aparecer. Nessas ocasiões, é imprescindível se desdobrar, montar novas estratégias e repensar os passos.</p>
-![1_hilp0xizP_43qVQ7wofz-w](https://user-images.githubusercontent.com/86201991/178257200-f94a1af2-c0c5-4705-ac3d-3bdc2ac68052.jpeg)
+<img align="center" alt="4_1" src="https://user-images.githubusercontent.com/86201991/178257200-f94a1af2-c0c5-4705-ac3d-3bdc2ac68052.jpeg" />
 <p>Uma outra e importante lição aprendida foi o desenvolvimentos de projetos através do método CRISP, que visa entregar resultados de forma cíclica, sempre repensando os passos dados e agregando melhorias. Dessa forma, é possível revisitar o projeto depois dos primeiros resultados serem entregues, analisar a satisfatoriedade e, caso necessario, refinar os resultados.</p>
 Agradeço a Comunidade DS pelo apoio no decorrer do trabalho e a você, por ter chegado até aqui!
 
