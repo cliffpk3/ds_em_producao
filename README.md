@@ -1,4 +1,4 @@
-<img align="center" alt="4_1" src="https://user-images.githubusercontent.com/86201991/178257200-f94a1af2-c0c5-4705-ac3d-3bdc2ac68052.jpeg" />
+<img align="center" alt="4_1" src="https://user-images.githubusercontent.com/86201991/178258039-96c493a0-aa18-495c-88c0-12884b4cddb0.jpg" />
 <h2>1. Problema de Negócio</h2>
 <h4>1.1 Contextualização</h4>
 <p>A Rossmann é uma rede de drogarias de origem alemã, presente na Europa. Possui ao todo mais de 4000 lojas e o faturamento anual da rede é estimado em €10 bilhões. A gama de produtos oferecidos incluem mais de 21 mil itens que podem variar de acordo com o tamanho da loja, os principais produtos são itens destinados saúde em geral, saúde da pele, cabelos, cuidado com o corpo e infantis.</p>
